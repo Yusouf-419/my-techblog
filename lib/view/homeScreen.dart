@@ -73,8 +73,7 @@ class Homescreen extends StatelessWidget {
                 ),
               ),
 
-              
-
+              ListView.builder(itemBuilder: itemBuilder)
             ],
           ),
         ),
@@ -348,3 +347,5 @@ class HomePagePoster extends StatelessWidget {
     );
   }
 }
+
+

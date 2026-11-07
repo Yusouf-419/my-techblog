@@ -1,4 +1,5 @@
 import 'package:techblog/Models/data_models.dart';
+import 'package:techblog/gen/assets.gen.dart';
 
 List<HashtagList> listHastag = [
   HashtagList(title: "جاوا"),
@@ -85,3 +86,11 @@ List<BlogList> blogList = [
 
 
 ];
+
+
+List<PodcastList> podcastList=[
+  PodcastList(imageUrl: Assets.images., namePodcats: namePodcats),
+  PodcastList(imageUrl: imageUrl, namePodcats: namePodcats),
+  PodcastList(imageUrl: imageUrl, namePodcats: namePodcats),
+  PodcastList(imageUrl: imageUrl, namePodcats: namePodcats),
+]

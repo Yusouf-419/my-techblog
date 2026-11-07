@@ -31,7 +31,14 @@ class BlogList {
 Map HomepagePoster = {
   "imageUrl": Assets.images.posterImage.path,
   "writer": "ملیکا عزیزی",
-  "date":"یک روزپیش",
-  "title":"دوازده قدم برنامه نویسی یک دوره ی...س",
-  "view":"255"
+  "date": "یک روزپیش",
+  "title": "دوازده قدم برنامه نویسی یک دوره ی...س",
+  "view": "255",
 };
+
+class PodcastList {
+  String imageUrl;
+  String namePodcats;
+
+  PodcastList({required this.imageUrl, required this.namePodcats});
+}
